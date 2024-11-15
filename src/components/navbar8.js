@@ -305,7 +305,7 @@ const Navbar8 = (props) => {
                 <span>
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="navbar8-text15">Main Action</span>
+                      <span className="navbar8-text15">Login</span>
                     </Fragment>
                   )}
                 </span>
@@ -314,7 +314,7 @@ const Navbar8 = (props) => {
                 <span>
                   {props.action2 ?? (
                     <Fragment>
-                      <span className="navbar8-text27">Secondary Action</span>
+                      <span className="navbar8-text27">Contact Us</span>
                     </Fragment>
                   )}
                 </span>
