@@ -26,8 +26,8 @@ const Home = () => {
         <Navbar8 />
 
         <Hero17
-          action2={<span className="home-text114">Secondary action</span>}
-          action1={<span className="home-text115">Main action</span>}
+          action2={<span className="home-text114">Contact Us</span>}
+          action1={<span className="home-text115">Login</span>}
           heading1={<span className="home-text116">Welcome to Trilli On Financial Suite</span>}
           content1={<span className="home-text117">Experience the future of finance with our innovative trilli on financial suite. Explore our range of products designed to revolutionize the way you invest and manage your assets.</span>}
         />

@@ -23,7 +23,7 @@ const Navbar8 = () => {
             >
               <span className="navbar8-text18">3D Blockchain</span>
             </Link>
-            
+
             <Link to="/trillionbank" className="thq-link thq-body-small">
               <span className="navbar8-text16">Trilli On Bank</span>
             </Link>
@@ -57,7 +57,7 @@ const Navbar8 = () => {
               to="/logout"
               className="navbar8-action21 thq-button-outline thq-button-animated"
             >
-              <span className="navbar8-text27">Logout</span>
+              <span className="navbar8-text27">Contact Us</span>
             </Link>
           </div>
         </div>
