@@ -12,11 +12,13 @@ const Footer4 = () => {
       <div className="footer4-max-width thq-section-max-width">
         <div className="footer4-content">
           <div className="footer4-logo1">
+          <Link to="/">
             <img
               alt="Logo"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/a618eeca7bec3840d12dc2b2400a4228f47af59067ff4be5dc9b77ea7f21b2f0?apiKey=07b7466444764966b3e325d12cdd6280&"
               className="footer4-logo2"
             />
+            </Link>
           </div>
           <div className="footer4-links">
             <Link
@@ -71,6 +73,13 @@ const Footer4 = () => {
 
             </div>
             <div className="footer4-footer-links">
+            <Link
+                to="/contact-us"
+                className="thq-body-small"
+                onClick={handleScrollToTop}
+              >
+                <span className="footer4-text21">Contact Us</span>
+              </Link>
               <Link
                 to="/privacy-policy"
                 className="thq-body-small"
