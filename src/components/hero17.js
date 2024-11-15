@@ -36,7 +36,7 @@ const Hero17 = (props) => {
             <span className="thq-body-small">
               {props.action1 ?? (
                 <Fragment>
-                  <span className="hero17-text6">Main action</span>
+                  <span className="hero17-text6">Login</span>
                 </Fragment>
               )}
             </span>
@@ -45,7 +45,7 @@ const Hero17 = (props) => {
             <span className="thq-body-small">
               {props.action2 ?? (
                 <Fragment>
-                  <span className="hero17-text5">Secondary action</span>
+                  <span className="hero17-text5">Contact Us</span>
                 </Fragment>
               )}
             </span>
