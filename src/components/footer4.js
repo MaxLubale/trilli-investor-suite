@@ -62,14 +62,15 @@ const Footer4 = () => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer4-row">
             <div className="footer4-container">
-              <span className="thq-body-small">© 2024 TRILLI ON FINANCIAL SUITE</span>
+            <span className="thq-body-small" style={{ color: 'gold' }}>
+              POWERED BY NEO TRILLI AO
+            </span>
+              
               
             </div>
 
             <div style={{ textAlign: 'center' }}> 
-            <span className="thq-body-small" style={{ color: 'gold' }}>
-              POWERED BY NEO TRILLI AO
-            </span>
+            <span className="thq-body-small">© 2024 TRILLI ON FINANCIAL SUITE</span>
 
             </div>
             <div className="footer4-footer-links">
