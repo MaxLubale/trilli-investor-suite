@@ -130,14 +130,14 @@ const Navbar8 = (props) => {
               >
                 {props.link1 ?? (
                   <Fragment>
-                    <span className="navbar8-text18">Home</span>
+                    <span className="navbar8-text18">#home</span>
                   </Fragment>
                 )}
               </a>
               <a href={props.link2Url} className="thq-link thq-body-small">
                 {props.link2 ?? (
                   <Fragment>
-                    <span className="navbar8-text16">Trilli-On-bank</span>
+                    <span className="navbar8-text16">#trillion-bank</span>
                   </Fragment>
                 )}
               </a>
@@ -147,7 +147,7 @@ const Navbar8 = (props) => {
               >
                 {props.link3 ?? (
                   <Fragment>
-                    <span className="navbar8-text24">Digital-wallet</span>
+                    <span className="navbar8-text24">#digital-wallet</span>
                   </Fragment>
                 )}
               </a>
@@ -159,7 +159,7 @@ const Navbar8 = (props) => {
                   <span className="thq-link thq-body-small">
                     {props.link4 ?? (
                       <Fragment>
-                        <span className="navbar8-text21">Payment-gateway</span>
+                        <span className="navbar8-text21">#payment-gateway</span>
                       </Fragment>
                     )}
                   </span>
