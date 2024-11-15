@@ -6,7 +6,20 @@ import Footer4 from "./footer4";
 
 function VideoComponent({ src, className }) {
   return (
-    <video autoPlay loop muted playsInline webkit-playsinline className={className} style={{ width: '100%', maxWidth: '600px', borderRadius: '8px', boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.5)' }}>
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      webkit-playsinline
+      className={className}
+      style={{
+        width: "100%",
+        maxWidth: "600px",
+        borderRadius: "8px",
+        boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.5)",
+      }}
+    >
       <source src={src} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -114,8 +127,8 @@ function Trillionit() {
         <main style={{ marginTop: '5rem', width: '90%' }}>
           <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '70px', flexWrap: 'wrap' }}>
             {/* Video and Form Side by Side */}
-            <div style={{ display: 'flex', flexDirection: 'row', gap: '30px', alignItems: 'center' }}>
-              <div style={{ width: '50%' }}>
+            
+            <div style={{ width: "100%", maxWidth: "600px" }}>
                 <VideoComponent src="https://trillion-funding-fqgv.onrender.com/uploads/wallet.mp4" />
               </div>
               <div style={{ width: '300px', padding: '50px', backgroundColor: '#333', borderRadius: '10px', color: '#fff' }}>
@@ -180,7 +193,7 @@ function Trillionit() {
                   Invest Now
                 </button>
               </div>
-            </div>
+            
 
             
             <p style={{

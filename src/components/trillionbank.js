@@ -3,10 +3,22 @@ import { useNavigate} from 'react-router-dom';
 import Navbar8 from "./navbar8";
 import Footer4 from "./footer4";
 
-
 function VideoComponent({ src, className }) {
   return (
-    <video autoPlay loop muted playsInline webkit-playsinline className={className} style={{ width: '100%', maxWidth: '600px', borderRadius: '8px', boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.5)' }}>
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      webkit-playsinline
+      className={className}
+      style={{
+        width: "100%",
+        maxWidth: "600px",
+        borderRadius: "8px",
+        boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.5)",
+      }}
+    >
       <source src={src} type="video/mp4" />
       Your browser does not support the video tag.
     </video>
@@ -114,10 +126,10 @@ const checkAgentCode = async (e) => {
         </header>
 
         <main style={{ marginTop: '5rem', width: '90%' }}>
-          <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '70px', flexWrap: 'wrap' }}>
+          <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '30px', flexWrap: 'wrap' }}>
             {/* Video and Form Side by Side */}
-            <div style={{ display: 'flex', flexDirection: 'row', gap: '30px', alignItems: 'center' }}>
-              <div style={{ width: '50%' }}>
+            <div style={{ width: "100%", maxWidth: "600px" }}>
+              {/* <div style={{ width: "1000%", maxWidth: "600px" }}> */}
                 <VideoComponent src="https://trillion-funding-fqgv.onrender.com/uploads/bank.mp4" />
               </div>
               <div style={{ width: '300px', padding: '50px', backgroundColor: '#333', borderRadius: '10px', color: '#fff' }}>
@@ -182,7 +194,7 @@ const checkAgentCode = async (e) => {
                   Invest Now
                 </button>
               </div>
-            </div>
+            {/* </div> */}
             
   <p style={{ fontSize: '1.6rem', lineHeight: '1.6', color: '#e0e0e0', padding: '15px', borderRadius: '8px', textAlign: 'justify' }}>
     TRILLI ON BANK is the World's First & Only Independent Indigenous Digital Bank. A Bank that has no monthly Fees, a Digital Bank Card Housed into its little Sister Trilli On It Money Wallet, as well as Features like Interest Free Loans for Indigenous Peoples Globally.
