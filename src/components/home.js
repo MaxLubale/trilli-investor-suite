@@ -23,22 +23,7 @@ const Home = () => {
           <meta property="og:title" content="TRILLI-ON FINANCIAL SUITE" />
         </Helmet>
 
-        <Navbar8
-          page4Description={<span className="home-text100">INDIGENOUS FINANCIAL GATEWAY</span>}
-          action1={<span className="home-text101">Login</span>}
-          link2={<span className="home-text102">Trilli On Bank</span>}
-          page1={<span className="home-text103">Home</span>}
-          link1={<span className="home-text104">3D Blockchain</span>}
-          page4={<span className="home-text105">Payment Gateway</span>}
-          page2={<span className="home-text106">3D Blockchain</span>}
-          link4={<span className="home-text107">MORE</span>}
-          page1Description={<span className="home-text108">START THE JOURNEY WITH US</span>}
-          page2Description={<span className="home-text109">BIODIGITAL SUPREMACY</span>}
-          link3={<span className="home-text110">Digital Wallet</span>}
-          page3={<span className="home-text111">Digital Wallet</span>}
-          page3Description={<span className="home-text112">YOUR ASSETS IN ONE WALLET</span>}
-          action2={<span className="home-text113">Logout</span>}
-        />
+        <Navbar8 />
 
         <Hero17
           action2={<span className="home-text114">Secondary action</span>}
