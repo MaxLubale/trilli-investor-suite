@@ -63,7 +63,7 @@ const Footer4 = () => {
           <div className="footer4-row">
             <div className="footer4-container">
             <span className="thq-body-small" style={{ color: 'gold' }}>
-              POWERED BY NEO TRILLI AO
+               BY NEO TRILLI AO
             </span>
               
               
